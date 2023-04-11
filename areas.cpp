@@ -58,7 +58,18 @@ cout<<"The area of a circle is :"<<circle_area<<" Square units"<<endl;
     cout << "The area of the sphere is: " << sphere_area << endl;//print the value of the area
 
 
-
+//area of trapezium
+    int main() {
+    float a, b, h;
+      //a and b are values of the parallel sides
+      //h is the perpendicular height
+    cout << "Enter the lengths of the parallel sides of the trapezium: ";
+    cin >> a >> b;
+    cout << "Enter the height of the trapezium: ";
+    cin >> h;
+    float area = ((a + b) / 2) * h;
+    cout << "The area of the trapezium is " << area << " square units.";
+    
 return 0;
 
 
