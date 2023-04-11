@@ -42,9 +42,26 @@ cout<<"Enter the radius :";
 cin>>radius;
 circle_area=pi*radius*radius;
 cout<<"The area of a circle is :"<<circle_area<<" Square units"<<endl;
+
+
+//area of a sphere
+   	   	   	   	   	// use pi from above 
+    double r, sphere_area;
+    //where r is the radius of the sphere
+
+    cout << "Enter the r of the sphere: ";
+    cin >> r;
+
+    // Calculate the area of the sphere
+    sphere_area = 4 * pi * r * r;
+
+    cout << "The area of the sphere is: " << sphere_area << endl;//print the value of the area
+
+
+
 return 0;
 
 
-return 0;
+
 
 }
