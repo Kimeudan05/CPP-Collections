@@ -59,7 +59,6 @@ cout<<"The area of a circle is :"<<circle_area<<" Square units"<<endl;
 
 
 //area of trapezium
-    int main() {
     float a, b, h;
       //a and b are values of the parallel sides
       //h is the perpendicular height
