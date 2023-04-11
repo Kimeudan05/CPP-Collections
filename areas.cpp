@@ -1,5 +1,5 @@
 #include<iostream>
-#include<cmath>
+// #include<cmath>
 using namespace std;
 int main(){
     //area or rectangle
@@ -37,7 +37,7 @@ cout<<"The Area of triangle is : "<<triangle_area<<" Square units"<<endl;
 
 //Area of a circle
 float radius,circle_area;
-const double pi = M_PI; // using the M_PI constant from cmath library
+const double pi = 3.142;
 cout<<"Enter the radius :";
 cin>>radius;
 circle_area=pi*radius*radius;
